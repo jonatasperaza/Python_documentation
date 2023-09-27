@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+:root{
+    --corPrincipal : #D91E41;
+    --corSecundaria: #782E8C;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+    background-color: var(--corPrincipal);
+    background-image: linear-gradient(120deg, var(--corPrincipal), var(--corSecundaria));
+    padding: 5rem 6rem;
+}
+
+h1#title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2#titleLegend{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgb(181, 181, 181);
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--corPrincipal);
+}
+
+article#introduction{
+    padding: 2rem 6rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    margin: auto;
+    max-width: 1024px;
+}
+
+main#languages{
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr;
+    grid-gap: 1rem;
+    padding: 2rem 6rem;
+    margin: auto;
+    max-width: 1024px;
+}
+
+img.language{
+    width: 30%;
+    
+}
+
+h2.lang{
+    text-align: center;
+}
+
+section.lang    {
+    text-align: center;
+    border-bottom: 2px solid var(--corPrincipal);
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding: 10px; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#Java-icon{
+    width: 100px;
+    height: 65px;
+    margin: 0 10px;
+}

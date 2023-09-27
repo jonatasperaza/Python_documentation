@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+main#js{
+    margin: auto;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 2rem 6rem;
+}
+
+img{
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+strong#destaque{
+    color: var(--corPrincipal);
+}
