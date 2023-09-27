@@ -47,3 +47,5 @@ fruits
 ['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']
 fruits.pop()
 'pear'
+```
+
